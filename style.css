@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1x 20px;
+}
+
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Change to your desired text color */
+    font-weight: bold;
+}
+
+/* Add hover effect for navigation links if desired */
+nav a:hover {
+    background-color: white;
+    color: black;
+}
